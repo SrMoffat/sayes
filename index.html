@@ -44,7 +44,7 @@
                         <div class="relative inline-block text-left">
                             <div class="group">
                                 <button type="button"
-                                    class="inline-flex justify-center items-center w-full text-sm font-medium text-white">
+                                    class="inline-flex justify-center items-center w-full text-md font-medium text-white">
                                     Partner with us
                                     <!-- Dropdown arrow -->
                                     <svg class="w-4 h-4 ml-2 -mr-1" xmlns="http://www.w3.org/2000/svg"
@@ -89,7 +89,25 @@
                     </div>
                     <div class="flex justify-between gap-4 text-white">
                         <a href="#" class="hover:opacity-70 cursor-pointer">Our Programmes</a>
-                        <a href="#" class="hover:opacity-70 cursor-pointer">Resources</a>
+                        <div class="relative inline-block text-left">
+                            <div class="group">
+                                <button type="button" class="inline-flex justify-center items-center w-full text-md font-medium text-white">
+                                    Resources
+                                    <!-- Dropdown arrow -->
+                                    <svg class="w-4 h-4 ml-2 -mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M10 12l-5-5h10l-5 5z" />
+                                    </svg>
+                                </button>
+                                <!-- Dropdown menu -->
+                                <div
+                                    class="absolute left-0 w-40 mt-1 origin-top-left bg-white divide-y divide-gray-100 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-300">
+                                    <div class="py-1">
+                                        <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Guidebook</a>
+                                        <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Datasheets</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -110,11 +128,15 @@
                     <span class="font-bold">trained and supported by SAYes.</span>
                 </div>
                 <div class="mt-6 flex justify-between">
-                    <button class="font-bold text-sm py-2 px-6 bg-white rounded-full text-center">Apply for a Mentor
+                    <button class="font-bold text-sm py-2 px-6 bg-white rounded-full text-center hover:opacity-80">Apply
+                        for a Mentor
                         (free)</button>
-                    <button class="font-bold text-sm py-2 px-6 bg-[#FFB81C] rounded-full text-center">Become a
+                    <button
+                        class="font-bold text-sm py-2 px-6 bg-[#FFB81C] rounded-full text-center hover:opacity-80">Become
+                        a
                         Mentor</button>
-                    <button class="font-bold text-sm py-2 px-6 bg-[#1877F2] rounded-full text-center text-white">Partner
+                    <button
+                        class="font-bold text-sm py-2 px-6 bg-[#1877F2] rounded-full text-center text-white hover:opacity-80">Partner
                         with SAYes (orgs)</button>
                 </div>
                 <div class="mt-6 flex justify-between items-center">
@@ -147,13 +169,13 @@
         <div class="flex justify-betweeen items-center">
             <div class="mt-2 flex justify-between text-xs uppercase items-center gap-2">
                 <div class="text-white flex items-center gap-2">
-                    <div>View South Africa Programme</div>
+                    <a href="#" class="hover:underline">View South Africa Programme</a>
                     <img src="src/img/sa_flag.svg" alt="SA" />
                 </div>
                 <div>|</div>
                 <div class="text-white flex items-center gap-2">
                     <img src="src/img/uk_flag.svg" alt="SA" />
-                    <div>View South Africa Programme</div>
+                    <a href="#" class="hover:underline">View South Africa Programme</a>
                 </div>
             </div>
         </div>
@@ -191,8 +213,11 @@
                             decision making in
                             every
                             area,
-                            <div class="text-[#76FCB2] font-bold underline">
-                                Apply for a mentor now (free)
+                            <div>
+                                <a href="#"
+                                    class="hover:no-underline hover:opacity-60 text-[#76FCB2] font-bold underline">
+                                    Apply for a mentor now (free)
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -253,13 +278,17 @@
                 <div class="tracking-[4px] font-bold text-[40px]">Enter the Era of Mentorship</div>
                 <div class=" uppercase text-md">A Vision of the World Possible Through Mentorship</div>
                 <div class="mt-6 flex gap-2">
-                    <button class="font-bold text-sm py-2 px-6 bg-white text-black rounded-full text-center">Apply for a
+                    <button
+                        class="hover:opacity-80 font-bold text-sm py-2 px-6 bg-white text-black rounded-full text-center">Apply
+                        for a
                         Mentor
                         (free)</button>
-                    <button class="font-bold text-sm py-2 px-6 bg-[#FFB81C] text-black rounded-full text-center">Become
+                    <button
+                        class="hover:opacity-80 font-bold text-sm py-2 px-6 bg-[#FFB81C] text-black rounded-full text-center">Become
                         a
                         Mentor</button>
-                    <button class="font-bold text-sm py-2 px-6 bg-[#1877F2] rounded-full text-center text-white">Partner
+                    <button
+                        class="hover:opacity-80 font-bold text-sm py-2 px-6 bg-[#1877F2] rounded-full text-center text-white">Partner
                         with SAYes (orgs)</button>
                 </div>
             </div>
@@ -305,7 +334,7 @@
                         </div>
                         <div class="font-bold mt-3 text-xl">Mentees</div>
                         <button
-                            class="font-bold text-xs mt-2 py-2 px-6 bg-[#008080] text-white rounded-full text-center">Apply
+                            class="hover:opacity-70 font-bold text-xs mt-2 py-2 px-6 bg-[#008080] text-white rounded-full text-center">Apply
                             for a Mentor
                             (free)</button>
                         <div class="mt-4">
@@ -325,7 +354,9 @@
                             <img src="src/img/sayes_icon_black.svg" alt="UK" />
                         </div>
                         <div class="font-bold mt-3 text-xl">Mentors</div>
-                        <button class="font-bold text-xs mt-2 py-2 px-6 bg-[#FFB81C] rounded-full text-center">Become a
+                        <button
+                            class="hover:opacity-70 font-bold text-xs mt-2 py-2 px-6 bg-[#FFB81C] rounded-full text-center">Become
+                            a
                             Mentor</button>
                         <div class="mt-4">
                             <ul class="list-disc">
@@ -345,7 +376,7 @@
                         </div>
                         <div class="font-bold mt-3 text-xl">Partners</div>
                         <button
-                            class="font-bold text-xs mt-2 py-2 px-6 bg-[#1877F2] rounded-full text-center text-white">Partner
+                            class="hover:opacity-70 font-bold text-xs mt-2 py-2 px-6 bg-[#1877F2] rounded-full text-center text-white">Partner
                             with SAYes (orgs)</button>
                         <div class="mt-4">
                             <ul class="list-disc">
@@ -396,7 +427,9 @@
         <div class="text-white uppercase flex items-center mb-6 gap-2">
             <span>Chris Anderson, </span><span><img src="src/img/ted.svg" alt="TED" /></span>
         </div>
-        <button class="font-bold text-sm py-2 px-6 bg-[#00B897] rounded-full text-center text-white">Become a donor
+        <button
+            class="hover:opacity-70 font-bold text-sm py-2 px-6 bg-[#00B897] rounded-full text-center text-white">Become
+            a donor
             today</button>
     </div>
 
@@ -408,7 +441,8 @@
         <div>SAYes offers customised mentorship and social change mentorship programmes for corporates.
             View our current programmes and partner portals below:</div>
         <div>
-            <button class="font-bold text-sm py-2 px-6 bg-[#1877F2] rounded-full text-center text-white">Partner
+            <button
+                class="hover:opacity-70 font-bold text-sm py-2 px-6 bg-[#1877F2] rounded-full text-center text-white">Partner
                 with SAYes (orgs)</button>
         </div>
         <div class="flex items-center gap-4 w-2/3">
@@ -425,7 +459,9 @@
                 <img src="src/img/alternative_prosperity2.svg" alt="SA" />
             </div>
         </div>
-        <div class="justify-self-start text-start text-black text-sm  rounded-full px-3 py-1 bg-[#76FCB2]">View</div>
+        <div
+            class="cursor-pointer hover:opacity-70 justify-self-start text-start text-black text-sm  rounded-full px-3 py-1 bg-[#76FCB2]">
+            View</div>
     </div>
 
     <!-- NEWSLETTER SECTION -->
